@@ -1,5 +1,10 @@
 import { v4 as uuid } from 'uuid';
 
+export enum TransactionType {
+  INCOME = 'income',
+  OUTCOME = 'outcome',
+}
+
 class Transaction {
   id: string;
 
